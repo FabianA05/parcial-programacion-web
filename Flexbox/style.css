@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Círculos decorativos superiores */
+.circle-top {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.circle-1 {
+    width: 300px;
+    height: 300px;
+    background: #e3f2fd;
+    top: -150px;
+    right: -150px;
+}
+
+.circle-2 {
+    width: 200px;
+    height: 200px;
+    background: #bbdefb;
+    top: -50px;
+    right: -50px;
+    opacity: 0.8;
+}
+
+.circle-3 {
+    width: 100px;
+    height: 100px;
+    background: #90caf9;
+    top: 50px;
+    right: 50px;
+    opacity: 0.6;
+}
+
+
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 25px;
+    background-color: #4285f4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #495057;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4d90fe;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.remember-me label {
+    font-size: 15px;
+    color: #495057;
+}
+
+.btn-signin {
+    width: 100%;
+    padding: 14px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-signin:hover {
+    background-color: #3367d6;
+}
+
+.forgot-password {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.forgot-password a {
+    color: #4285f4;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.2s;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+    color: #3367d6;
+}
